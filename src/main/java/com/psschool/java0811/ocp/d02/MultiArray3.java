@@ -3,7 +3,7 @@ package com.psschool.java0811.ocp.d02;
 public class MultiArray3 {
 
     public static void main(String[] args) {
-        int[][] x = new int[][]{{100, 90, 80}, {70, 60, 50}};//array initialize 
+        int[][] x = new int[][]{{100, 90, 80}, {70, 60, 50},{90, 50},{80, 70, 60, 90, 53}};//array initialize 
         //前面的new int[][]通常會拿掉
         //將x[0]的內容取出
         for (int j = 0; j < x.length; j++) {

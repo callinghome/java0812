@@ -1,10 +1,10 @@
 
-package com.psschool.java0811.ocp.game;
+package com.psschool.java0811.ocp.game.case1;
 
 import java.util.Random;
 
-public class English {
-    private int ans=new Random().nextInt(26)+65;
+public class Number {
+    private int ans=new Random().nextInt(100)+1;
     private int count;
     public int check(int userAns){
         count++;
